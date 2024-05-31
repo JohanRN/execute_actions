@@ -1,7 +1,6 @@
 name: My Workflow
 on:
   repository_dispatch:
-    types: [my-event]
 jobs:
   myJob:
     runs-on: ubuntu-latest
