@@ -1,6 +1,6 @@
 name: My Workflow
 on:
-  repository_dispatch:
+  workflow_dispatch:
 jobs:
   myJob:
     runs-on: ubuntu-latest
