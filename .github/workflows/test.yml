@@ -1,0 +1,11 @@
+name: My Workflow
+on:
+  repository_dispatch:
+    types: [my-event]
+jobs:
+  myJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      # Add more steps as needed
